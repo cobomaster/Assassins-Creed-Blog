@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Assassin';
+  src: url('/fonts/Assassin.woff2') format('woff2'),
+       url('/fonts/Assassin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Assassin', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #eee;
+}
+
+.Contenedor_Principal {
+  text-align: center;
+}
+
+.Hea{
+    display: flex;
+    justify-content: space-around;
+}
+.Hea p {
+  font-size: 2em;
+  margin: 0.5em 0;
+}

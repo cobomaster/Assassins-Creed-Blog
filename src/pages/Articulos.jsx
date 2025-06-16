@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import './inicio.css';
+import './Inicio.css';
 
 function Articulo() {
   const { id } = useParams();

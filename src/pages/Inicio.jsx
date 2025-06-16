@@ -1,4 +1,4 @@
-import './inicio.css';
+import './Inicio.css';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
